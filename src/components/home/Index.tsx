@@ -1,13 +1,14 @@
 import React from 'react'
-import Home0 from './Home0'
-import Home1 from './Home1'
-import LinkedInButton from '../buttons/LinkedInButton'
+import Hero from './Hero'
+import Experience from './Experience'
+import About from './About'
 
 const Index = () => {
   return (
     <>
-        <Home0/>
-        <Home1/>
+        <Hero/>
+        <About/>
+        <Experience/>
     </>
   )
 }

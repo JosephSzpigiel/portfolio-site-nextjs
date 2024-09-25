@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../components/home/Index.tsx'
+import Home from '../components/home/Index'
 
 const index = () => {
   return (

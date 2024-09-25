@@ -1,15 +1,18 @@
-import { Box, Text } from '@chakra-ui/react'
+import { Box, HStack, Text } from '@chakra-ui/react'
 import React from 'react'
+import GitHubButton from '../buttons/GitHubButton'
+import LinkedInButton from '../buttons/LinkedInButton'
 
-const Home0 = () => {
+const Hero = () => {
   return (
     <Box 
-        border='2px solid blue' 
+        paddingTop={'20px'}
+        // border='2px solid blue' 
         // textAlign={'center'}
         // fontSize={'clamp(12px, 2vw, 40px)'}
     >
         <Text 
-            fontSize={'clamp(30px, 2vw, 50px)'}
+            fontSize={'clamp(50px, 2vw, 70px)'}
             fontWeight={'600'}
         >
             Joseph Szpigiel
@@ -23,8 +26,12 @@ const Home0 = () => {
         <Text>
             I build pixel-perfect, engaging, and accessible digital experiences.
         </Text>
+        <HStack paddingTop={'5px'}>
+            <GitHubButton/>
+            <LinkedInButton/>
+        </HStack>
     </Box>
   )
 }
 
-export default Home0
+export default Hero
