@@ -1,5 +1,4 @@
-import { background, Card, extendTheme } from '@chakra-ui/react';
-import { color } from 'framer-motion';
+import { extendTheme } from '@chakra-ui/react';
 
 const theme = extendTheme({
   styles: {

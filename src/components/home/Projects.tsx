@@ -1,4 +1,4 @@
-import { Box, Text, Link, Stack, Badge, Image, Card, CardBody, Heading, CardFooter, ButtonGroup, Button, HStack } from '@chakra-ui/react'
+import { Text, Link, Stack, Image, Card, CardBody, Heading, CardFooter, ButtonGroup, Button, HStack } from '@chakra-ui/react'
 import React from 'react'
 
 function Projects() {
