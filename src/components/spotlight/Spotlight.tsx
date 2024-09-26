@@ -4,7 +4,7 @@ import styles from './Spotlight.module.css';
 const Spotlight = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
-  const handleMouseMove = (event: { clientX: any; clientY: any; }) => {
+  const handleMouseMove = (event: { clientX: number; clientY: number; }) => {
     setCursorPosition({ x: event.clientX, y: event.clientY });
   };
 
