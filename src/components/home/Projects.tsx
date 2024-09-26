@@ -54,7 +54,7 @@ function Projects() {
             link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
             description: 'This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.',
             image: 'images/VPoker.png',
-            name: 'Test 2',
+            name: 'Test 3',
             github: 'https://github.com/JosephSzpigiel/vpoker-react'
         }
 
@@ -71,7 +71,7 @@ function Projects() {
         }
 
         return(
-            <Card maxW='sm' h={'lg'} background={'#57647A'} textColor={'white'}>
+            <Card maxW='sm' h={'lg'} background={'#57647A'} textColor={'white'} key={project.name}>
                 <CardBody>
                     <Image src={project.image} alt={project.name} borderRadius={'lg'} w={'500px'} h={'175px'}/>
                     <Stack mt='6' spacing='3'>
