@@ -67,7 +67,7 @@ function Projects() {
         
         
         if(project.tech){
-            techBadges = project.tech.map(tech => <Badge colorScheme='green'>{tech}</Badge>)
+            techBadges = project.tech.map(tech => <Badge key={tech} colorScheme='green'>{tech}</Badge>)
         }
 
         return(
