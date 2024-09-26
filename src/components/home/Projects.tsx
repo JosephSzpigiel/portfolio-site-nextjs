@@ -37,11 +37,11 @@ function Projects() {
             tech: ['Python', 'SQLite3', 'ORM', 'CLI']
         },
         {
-            link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
-            description: 'This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.',
+            description: 'Welcome to DateCrafters, a dating concierge app that helps couples plan dates through a variety of activities that appeal to every mood and budget. It is a full-stack project built with a React frontend and a Python/Flask backend.',
             image: 'images/VPoker.png',
-            name: 'Test 2',
-            github: 'https://github.com/JosephSzpigiel/vpoker-react'
+            name: 'DateCrafters',
+            tech: ['Python', 'SQLite3', 'Flask', 'React', 'Semantic UI'],
+            github: 'https://github.com/JosephSzpigiel/date-app'
         },
         {
             link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
