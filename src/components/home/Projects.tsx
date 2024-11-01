@@ -43,20 +43,20 @@ function Projects() {
             tech: ['Python', 'SQLite3', 'Flask', 'React', 'Semantic UI'],
             github: 'https://github.com/JosephSzpigiel/date-app'
         },
-        {
-            link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
-            description: 'This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.',
-            image: 'images/VPoker.png',
-            name: 'Test 2',
-            github: 'https://github.com/JosephSzpigiel/vpoker-react'
-        },
-        {
-            link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
-            description: 'This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.',
-            image: 'images/VPoker.png',
-            name: 'Test 3',
-            github: 'https://github.com/JosephSzpigiel/vpoker-react'
-        }
+        // {
+        //     link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
+        //     description: 'This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.',
+        //     image: 'images/VPoker.png',
+        //     name: 'Test 2',
+        //     github: 'https://github.com/JosephSzpigiel/vpoker-react'
+        // },
+        // {
+        //     link: 'https://virtualpoker-8bfvmdsrw-josephszpigiels-projects.vercel.app/',
+        //     description: 'This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.',
+        //     image: 'images/VPoker.png',
+        //     name: 'Test 3',
+        //     github: 'https://github.com/JosephSzpigiel/vpoker-react'
+        // }
     ]
 
 
@@ -123,11 +123,11 @@ function Projects() {
             >
                 {ProjectCards}
             </HStack>
-            <Center paddingTop={'10px'}>
+            {/* <Center paddingTop={'10px'}>
                 <Link>
                     <Button>See all projects</Button>
                 </Link>
-            </Center>
+            </Center> */}
         </Box>
     )
 }
