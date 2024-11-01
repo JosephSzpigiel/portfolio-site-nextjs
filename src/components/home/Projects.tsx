@@ -38,7 +38,7 @@ function Projects() {
         },
         {
             description: 'Welcome to DateCrafters, a dating concierge app that helps couples plan dates through a variety of activities that appeal to every mood and budget. It is a full-stack project built with a React frontend and a Python/Flask backend.',
-            image: 'images/VPoker.png',
+            image: 'images/DatePic.png',
             name: 'DateCrafters',
             tech: ['Python', 'SQLite3', 'Flask', 'React', 'Semantic UI'],
             github: 'https://github.com/JosephSzpigiel/date-app'
