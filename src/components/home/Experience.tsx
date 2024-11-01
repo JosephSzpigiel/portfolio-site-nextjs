@@ -4,7 +4,8 @@ import { Box, Link, Text, Badge, Stack } from '@chakra-ui/react'
 const Experience = () => {
   return (
     <Box
-        paddingBottom={'50px'}
+        paddingTop={'50px'}
+        id={'experience'}
     >
         <Text
             fontSize={'24px'}
@@ -28,20 +29,22 @@ const Experience = () => {
                 width={['100%', '70%']}
             >
                 <Link 
-                    href='https://www.klaviyo.com/' 
+                    href='https://wevote.us/' 
                     isExternal
                     fontSize={'24px'}
                     fontWeight={'500'}
                 >
-                    Senior Frontend Engineer, Accessibility · Klaviyo
+                    Software Engineer, Volunteer · WeVote
                 </Link>
                 <Text>
-                    Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.
+                    Fix identified bugs and implement new features in React.js and Django Python. Write tests to verify the functionality of the WeVote platform. Report new bugs and record them using the Jira platform.
                 </Text>
-                <Stack direction={'row'}>
+                <Stack direction={'row'} paddingY={'10px'}>
                     <Badge colorScheme='green'>Javascript</Badge>
-                    <Badge colorScheme='green'>Typescript</Badge>
                     <Badge colorScheme='green'>React</Badge>
+                    <Badge colorScheme='green'>Python</Badge>
+                    <Badge colorScheme='green'>Django</Badge>
+                    <Badge colorScheme='green'>Jira</Badge>
                 </Stack>
             </Box>
         </Box>
@@ -54,32 +57,62 @@ const Experience = () => {
                 // border={"2px solid purple"}
                 width={'30%'}
             >
-                2018 — 2024
+                2021 — 2024
             </Box>
             <Box
                 // border={"2px solid yellow"}
                 width={['100%', '70%']}
             >
                 <Link 
-                    href='https://upstatement.com/' 
+                    href='https://www.yachad.org/' 
                     isExternal
                     fontSize={'24px'}
                     fontWeight={'500'}
                     >
-                    Lead Engineer · Upstatement
+                    Director of Data and Systems · Yachad
                 </Link>
                 <Text>
-                    Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.
+                    Coordinated business needs with our webteam to enhance a custom CRM frontend. Oversaw business use of technological needs for 10+ chapters across 3 countries. Bugtested new features for data management systems. Trained and supported 200+ users in use of a custom CRM tracking 1000+ program participants and volunteers.
                 </Text>
-                <Stack direction={'row'} wrap={'wrap'}>
-                    <Badge colorScheme='green'>Javascript</Badge>
-                    <Badge colorScheme='green'>Typescript</Badge>
-                    <Badge colorScheme='green'>React</Badge>
-                    <Badge colorScheme='green'>CSS</Badge>
-                    <Badge colorScheme='green'>HTML</Badge>
-                    <Badge colorScheme='green'>JSX</Badge>
-                    <Badge colorScheme='green'>Next.js</Badge>
-                    <Badge colorScheme='green'>Chakra UI</Badge>
+                <Stack direction={'row'} wrap={'wrap'} paddingY={'10px'}>
+                    <Badge colorScheme='green'>Sharepoint</Badge>
+                    <Badge colorScheme='green'>WordPress</Badge>
+                    <Badge colorScheme='green'>Custon CRM Management</Badge>
+                    <Badge colorScheme='green'>Bugtesting</Badge>
+                    <Badge colorScheme='green'>Training</Badge>
+                </Stack>
+            </Box>
+        </Box>
+        <Box
+            // border={"2px solid red"}
+            display={'flex'}
+            flexDirection={['column', 'row', 'row']}
+        >
+            <Box
+                // border={"2px solid purple"}
+                width={'30%'}
+            >
+                2020 — 2021
+            </Box>
+            <Box
+                // border={"2px solid yellow"}
+                width={['100%', '70%']}
+            >
+                <Link 
+                    href='https://wevote.us/' 
+                    isExternal
+                    fontSize={'24px'}
+                    fontWeight={'500'}
+                >
+                    Assistant Director of Operations · Yachad
+                </Link>
+                <Text>
+                    Liaised with our IT department to update existing technology processes. Coordinated the department wide transition of user data from a local storage drive to Microsoft Sharepoint. Developed annual reports looking at organizational impact on 1000+ participants. Managed access and permissions for organizations technological needs.
+                </Text>
+                <Stack direction={'row'} paddingY={'10px'}>
+                    <Badge colorScheme='green'>Sharepoint</Badge>
+                    <Badge colorScheme='green'>Data Analysis</Badge>
+                    <Badge colorScheme='green'>Management</Badge>
                 </Stack>
             </Box>
         </Box>

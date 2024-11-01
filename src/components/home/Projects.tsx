@@ -1,4 +1,4 @@
-import { Text, Link, Stack, Image, Card, CardBody, Heading, CardFooter, ButtonGroup, Button, HStack, Badge, Divider, Center } from '@chakra-ui/react'
+import { Text, Link, Stack, Image, Card, CardBody, Heading, CardFooter, ButtonGroup, Button, HStack, Badge, Divider, Center, Box } from '@chakra-ui/react'
 import React from 'react'
 
 function Projects() {
@@ -57,7 +57,6 @@ function Projects() {
             name: 'Test 3',
             github: 'https://github.com/JosephSzpigiel/vpoker-react'
         }
-
     ]
 
 
@@ -105,7 +104,10 @@ function Projects() {
 
 
     return (
-        <>
+        <Box
+            id='projects'
+            paddingTop={'50px'}
+        >
             <Text
                 fontSize={'24px'}
                 fontWeight={'500'}
@@ -126,7 +128,7 @@ function Projects() {
                     <Button>See all projects</Button>
                 </Link>
             </Center>
-        </>
+        </Box>
     )
 }
 

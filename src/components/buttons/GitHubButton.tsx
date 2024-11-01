@@ -5,7 +5,13 @@ import { FaGithub } from 'react-icons/fa'
 function GitHubButton() {
   return (
     <Link href='https://github.com/JosephSzpigiel' isExternal>
-        <IconButton aria-label='GitHub' icon={<FaGithub />} variant={'ghost'} color={'grey'} fontSize={'30px'}/>
+        <IconButton 
+          aria-label='GitHub' 
+          icon={<FaGithub />} 
+          variant={'ghost'} 
+          color={'grey'} 
+          fontSize={'50px'} 
+          height={'50px'}/>
     </Link>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 function About() {
   return (
-    <Box paddingY={'50px'}>
+    <Box paddingTop={'50px'} id={'about'}>
         <Text
             fontSize={'24px'}
             fontWeight={'500'}
@@ -11,27 +11,7 @@ function About() {
             About
         </Text>
         <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-            recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-            minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
-            quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
-            fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
-            consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-            doloremque. Quaerat provident commodi consectetur veniam similique ad 
-            earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
-            fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
-            suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-            modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
-            totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
-            quasi aliquam eligendi, placeat qui corporis!
+          Programmer using Python with Flask and JavaScript with a background working in the nonprofit sector as part of a cross functional team implementing technical solutions. Known for communication and collaboration skills that help teams succeed. Trained 200+ non-technical staff on a proprietary CRM used to track program participation for 1000+ participants across the US and Canada. Demonstrates a passion for creative problem solving to manage complex business needs.
         </Text>
     </Box>
   )

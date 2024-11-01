@@ -6,27 +6,33 @@ import LinkedInButton from '../buttons/LinkedInButton'
 const Hero = () => {
   return (
     <Box 
-        paddingTop={'20px'}
+        paddingTop={'80px'}
+        id='home'
         // border='2px solid blue' 
         // textAlign={'center'}
         // fontSize={'clamp(12px, 2vw, 40px)'}
     >
         <Text 
-            fontSize={'clamp(50px, 2vw, 70px)'}
-            fontWeight={'600'}
+            fontSize={['60px', '60px', '70px', '90px']}
+            fontWeight={'700'}
         >
             Joseph Szpigiel
         </Text>
         <Text
-            fontSize={'clamp(20px, 1vw, 30px)'}
-            fontWeight={'500'}
+            fontSize={['40px', '40px', '50px', '60px']}
+            fontWeight={'600'}
         >
             Software Engineer
         </Text>
-        <Text>
-            I build pixel-perfect, engaging, and accessible digital experiences.
+        <Text fontWeight={'normal'} fontSize={['20px', '20px', '25px', '25px']}>
+            <span style={{fontWeight: "semibold"}}>Languages:</span> Python, Javascript, Typescript, SQL
         </Text>
-        <HStack paddingTop={'5px'}>
+        <Text fontWeight={'normal'} fontSize={['20px', '20px', '25px', '25px']}>
+            <span style={{fontWeight: "semibold"}}>FrameWorks & Libraries:</span> React.js, Next.js, Flask, Chakra UI
+        </Text>
+        <HStack>
+        </HStack>
+        <HStack paddingTop={'15px'}>
             <GitHubButton/>
             <LinkedInButton/>
         </HStack>

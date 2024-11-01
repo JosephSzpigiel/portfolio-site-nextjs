@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Box display={'flex'} justifyContent={'center'}>
-        <Box paddingX={'10px'} paddingY={'6px'} maxW={'700px'} minWidth={'80%'}>
+        <Box paddingX={'10px'} paddingY={'6px'} maxW={'700px'} minW={'80%'}>
           <NavBar/>
           <Component {...pageProps}/>
         </Box>
