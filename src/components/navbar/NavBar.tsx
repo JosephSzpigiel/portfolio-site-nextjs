@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import { Box, Button, HStack, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, useMediaQuery } from '@chakra-ui/react'
-import { AddIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon } from '@chakra-ui/icons';
+// import { AddIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon } from '@chakra-ui/icons';
 
 const NavBar = () => {
 
